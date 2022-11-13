@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <title>My Website</title>
+    <link rel="stylesheet" href = "web.css">
+    <!-- using inline css...........................................................................-->
+    <style type="text/css">
+        .slider 
+        {
+          width: 50%;
+          height: 300px;
+          float: right;
+          margin: 20px auto;
+        overflow: hidden;
+          box-shadow: 5px 5px 10px grey;
+          background-size: cover;
+                }
+      
+
+    .teri 
+      {
+          width: 100%;
+          height: 100%;
+      }
+  </style>
+
+</head>
+<body>
+    <section class = "header">
+        <nav>
+
+            <div class="nav-links"id ="navLinks">
+                <!-- ....................................making link clickable.........................................-->
+               <a href="Home.html"> <img src="img/bubble.png" ></a>
+
+                <ul>
+                    <li><a href="Home.html">Home </a></li>
+                    <li><a href="Product.html">Product </a></li>
+                    <li><a href="Blogs.html">Blogs </a></li>
+                    <li><a href="Research.html">Research </a></li>
+                    <li><a href="contact.html">Contact Us </a></li>
+                </ul>
+            </div>
+            <!-- search bar...........................................................................................................-->
+            <input type="text" placeholder="search" class="one">
+            <button class="two"><img src="img/search.png"></button>
+
+        </nav>
+        <div class="text-box">
+            <h1 style="margin-top:100px;" id="bae" onclick="document.getElementById('bae').innerHTML='Stick for the good stuff'";>World's Best Mobile Selling Platform</h1>
+<!-- image slider ............................................................................................-->
+            <div class="slider">
+                <div id="img">
+                  <img src="img/slider (1).jpg" class="teri">
+              </div>
+          </div>
+          <p style="margin-top:40px;">Here you can get custom mobile phones made and can own the rights <br> A best way to go for mobiles.
+          </p>
+          <a href="contact.html" class="hero-btn">visit us to know more</a>
+      </div>
+
+  </section>
+
+<!-- ............footer...........................................................................-->
+  <section class="footer">
+    <div class="apple">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>Kamalpokhari, Baagbazar, Kathmandu, Nepal</p>
+        <p><strong>Phone:</strong>+977-9807886226</p>
+        <p><strong>Hours:</strong>10:00 - 22:00. Mon - Friday</p>
+    </div>
+
+    <div class="ball" >
+        <h4>About</h4>
+        <a href="#">About us</a><br>
+        <a href="#">Delivery details</a><br>
+        <a href="#">Privacy policy</a> <br> 
+        <a href="#">Blog</a><br>
+    </div>
+
+    <div class="cat" >
+        <h4>My Account</h4>
+        <a href="#">Sign in</a><br>
+        <a href="#">My cart</a><br>
+        <a href="#">Favourits</a> <br> 
+        <a href="#">Help</a><br>
+    </div>
+    <div class="dog" >
+        <h4>Downlad the app </h4><br>
+        <p>From Play Store or App Store</p>
+
+    </div>
+</section>
+
+<script src="web.js"></script>
+</body>
+</html> 

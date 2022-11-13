@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.header{
+    min-height:120vh;
+    width:100%;
+    background-color:#F5F5F5;
+    background-image: url(img/cb1.png);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+
+}
+.one{
+position: absolute;
+top: 13%;
+left: 900px;
+width: 240px;
+height: 35px;
+border-radius: 20px 0 0 20px;
+border: none;
+padding: 0 5px;
+
+}
+.two{
+position: absolute;
+top: 13%;
+left: 1140px;
+width: 70px;
+height: 35px;
+border-radius: 0px 20px 20px 0px;
+border: none;
+background-color: #f44336;
+cursor: pointer;
+}
+.two img{
+    width: 20px;
+    
+}
+.two:hover{
+    background-color:#f44336 ;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.436);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.0), rgba(0, 0, 0, 0.436) );
+    display:flex;
+    padding:1% 3%;
+    justify-content:space-evenly;
+    align-items:center;
+}
+nav img{
+    width:60px;
+    position: absolute;
+    top:5px ;
+    left: 40px;
+
+}
+
+.nav-links{
+    flex:1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:#f44336;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.text-box{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+
+}
+.text-box h1{
+    font-size:62px;
+    margin: 0px;
+}
+
+.text-box p{
+    margin:10px 0 40px;
+    font-size:14px;
+    color:#fff;
+
+}
+.hero-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:#fff;
+    border:1px solid black;
+    padding:12px 34px;
+    font-size:13px;
+    background:transparent;
+    position:relative;
+    cursor:pointer;
+
+}
+.hero-btn:hover{
+    border:1px solid #f44336;
+    background:#f44336;
+    transition:1s;
+}
+nav i{
+    display:none;
+    
+}
+
+
+/* comment........................................*/
+.course{
+    width:90%;
+    height: 300vh;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+
+}
+h1{
+    font-size:36px;
+    font-weight:600;
+
+}
+p{
+    color:black;
+    font-size:14px;
+    font-weight:300;
+    line-height:22px;
+    padding:10px;
+}
+.row{
+    margin-top:5%;
+    display:grid;
+    grid-template-columns: 40% 40%;
+
+    justify-content:space-evenly;
+}
+.bro{
+    margin-top:5%;
+    display:block;
+
+}
+
+.course-col{
+    width: 350px;
+    background:#fff3f3;
+    border-radius:10px;
+    padding:20px 12px;
+    box-sizing:border-box;
+    transition:0.2s;
+    margin-bottom: 10%;
+}
+h3{
+    text-align:center;
+    font-weight:600;
+    margin:10px 0;
+
+
+}
+.course-col:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+
+}
+
+/*contact page.............................................*/
+
+.contact{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+.text{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+
+}
+.text2{
+   position: absolute;
+   top: 120px;
+   left: 650px;
+   border-radius: 5px;
+}
+.text3{
+   position: absolute;
+   top: 170px;
+   left: 650px;
+   border-radius: 5px;
+
+}
+.wubba{
+    position:absolute; 
+    top:122px;
+    left:50px;
+}
+.name:hover{
+    background-color:#F44336;
+    cursor: pointer;
+}
+.text1{
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    border-radius: 5px;
+
+}
+.textarea{
+    position: absolute;
+    top: 220px;
+    left: 120px;
+    border-radius: 5px;
+    height: 60px;
+
+}
+.babes{
+    background-color:#C4DCBA ;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+}
+.contact-col{
+    width: 45%;
+    border-radius:10px;
+    margin-bottom:30px;
+    margin-top: 30px;
+    position:relative;
+    overflow:hidden;
+    background-color: #C4DCBA;
+}
+
+.contact-col img{
+    width:100%;
+    display:block;
+
+}
+.contact >.contact-col{
+    display: flex;
+    flex-direction: row;
+}
+#wow{
+    position: absolute;
+    top: 103.5%;
+    left: 50%;
+}
+
+
+.layer{
+    background:transparent;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:0.5s;
+}
+.layer:hover{
+    background:rgba(226,0,0,0.1);
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+}
+.layer h3{
+    width:100%;
+    font-weight:500;
+    color:#fff;
+    font-size:26px;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    position:absolute;
+    opacity:0;
+    transition:0.5s;
+
+}
+.layer:hover h3{
+    bottom:49%;
+    opacity:1;
+}
+/* another web page.....................*/
+.facilities{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+
+}
+.facilities-col{
+    width: 100%;
+    border-radius:10px;
+    margin-bottom:5%;
+    text-align:center;
+    display: block;
+    background-color: #D9EEE1;
+}
+.facilities-col img{
+    width:500px;
+
+    border-radius:10px;
+    background-size: cover;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+
+
+
+}
+.facilities-col p{
+    padding:0;
+
+}
+.facilities-col h3{
+    margin-top:15px;
+    margin-bottom:15px;
+    text-align:left;
+}
+
+/* for product page.............................*/
+.product{
+    width:90%;
+    margin-left:20px;
+    padding-top:100px;
+    text-align:center;
+}
+.product-col{
+    width: 450px;
+    border-radius:10px;
+    margin-bottom:10%;
+    
+    text-align:left;
+    padding:20px;
+    cursor:pointer;
+    display:flex;
+    background-color: #C5DDB9;
+
+}
+.product-col button{
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border-color:#C5DDB9 ;
+    
+    display: block;
+    transition: 0.5s;
+}
+.product-col button:hover{
+    background-color:#f44336 ;
+}
+.product-col:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+
+}
+.product-col img{
+    height:200px;
+    margin-left:5px;
+    margin-right:30px;
+    border-radius:50%;
+}
+.product-col p{
+    padding:0;
+}
+
+.testimonial-col h3{
+    margin-top:15px;
+    text-align:left;
+}
+.product-col .fa-solid{
+    color:#f44336;
+
+}
+
+/*for footer page................................*/
+.footer{
+    display: flex;
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.4);
+
+}
+.footer h4{
+    margin-bottom:25px;
+    margin-top:20px;
+    font-weight:600;
+    color: white;
+}

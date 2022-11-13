@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href = "web.css">
+    <script src="https://kit.fontawesome.com/9f81343850.js" crossorigin="anonymous"></script>
+
+    <style>
+        .text{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body style="background-image:url(img/new2.jpg);background-size:cover;">
+    <nav>
+        <div class="nav-links"id ="navLinks">
+            <a href="Home.html"> <img src="img/bubble.png" ></a>
+
+            <ul>
+                <li><a href="Home.html" >Home</a></li>
+                <li><a href="Product.html" >Product</a></li>
+                <li><a href="Blogs.html" >Blogs</a></li>
+                <li><a href="Research.html" >Research</a></li>
+                <li><a href="contact.html" >Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="contact">
+        <h1 style="color:white;">Contact Us</h1>
+        <p>For all enquiries, please email us using the form below.<p>
+            <div class="babes">
+                <a href="https://www.google.com/maps/place/Islington+College/@27.7085171,85.3238296,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb1908434cb3c5:0x1fdf1a6d41d2512d!8m2!3d27.7085171!4d85.3260183"><i class="fa-solid fa-house-user" style="position:absolute;top:5%;left:5%;" ></i></a>
+                <form>
+                    <h3>How can we help you?</h3><br>
+                    <!--inline css...............................................................................................................-->
+                    <select class="problem" style="width:300px;height: 30px; border-radius:5px;">
+                        <option value="Volvo">Trouble finding a Phone</option>
+                        <option value="Volvo">Couldn't buy a phone</option>
+                        <option value="Volvo">Trouble finding a Phone</option>
+                        <option value="Volvo">Trouble finding a Phone</option>
+                        <option value="Volvo">Trouble finding a Phone</option>
+                    </select><br><br>
+
+
+                    <label  class="wubba" >Name:</label><input type="text" class="text" placeholder="your name" style="width:250px;margin-left:10px; padding:3px;" required><br><br>
+                    <label  style="position:absolute; top:172px;left:50px;">Email:</label><input type="email" class="text1" placeholder="enter your email" style="width:250px;margin-left:10px; padding:3px;" required><br><br>
+                    <label  style="position:absolute; top:222px;left:50px;">Message:</label><textarea type="text" class="textarea" placeholder="write your query..." style="width:250px;margin-left:10px; padding:3px;" required></textarea><br>
+                    <label style="position:absolute; top:122px;left:550px;">Phone no:</label><input type="text" class="text2" placeholder="enter your phone number" style="width:250px;margin-left:10px; padding:3px;" required><br><br>
+                    <label style="position:absolute; top:172px;left:550px;">Password:</label><input type="password" id="password" class="text3" placeholder="enter your password" style="width:250px;margin-left:10px; padding:3px;" required><br><br>
+                    
+                    <input type="submit"onclick="validateForm()" class="name" style=" border: none;position:absolute;top:280px;left:690px; border-radius: 5px;width:200px; height: 40px; font-size: 20px;transition: 1s; "><br><br>
+
+
+                </form>
+            </div>
+
+            <div class="contact-col">
+                <img src="img/10.png">
+                <div class="layer">
+                    <h3>Studying with Tech</h3>
+                </div>
+
+            </div>
+            <div class="contact-col" id="wow">
+                <img src="img/12.png">
+                <div class="layer">
+                    <h3>Technology</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <iframe style="margin-left  :400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.283976072999!2d85.3238296145921!3d27.708517082791385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1908434cb3c5%3A0x1fdf1a6d41d2512d!2sIslington%20College!5e0!3m2!1sen!2snp!4v1654069605081!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="footer">
+        <div class="apple">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Baagbazar, Kathmandu, Nepal</p>
+            <p><strong>Phone:</strong>+977-9807886226</p>
+                    </div>
+
+        <div class="ball" >
+            <h4>About</h4>
+            <a href="#">About us</a><br>
+            <a href="#">Delivery details</a><br>
+            <a href="#">Privacy policy</a> <br> 
+            <a href="#">Blog</a><br>
+        </div>
+
+        <div class="cat" >
+            <h4>My Account</h4>
+            <a href="#">Sign in</a><br>
+            <a href="#">My cart</a><br>
+            <a href="#">Favourits</a> <br> 
+            <a href="#">Help</a><br>
+        </div>
+        <div class="dog" >
+            <h4>Downlad the app </h4><br>
+            <p>From Play Store or App Store</p>
+
+        </div>
+    </section>
+</body>
+</html>
+
